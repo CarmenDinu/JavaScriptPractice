@@ -1,0 +1,79 @@
+[EXERCISE]
+- capture an operation from prompt (add, substract, multiply), followed by  two numbers
+- print the result of the operation
+- print error if one of the numbers is not a number
+- print error if the action is incorrect
+- example "add 1 33" prints 34
+- example "adds 1 33" prints error
+- example "add 1f 33" prints error
+
+[EXERCISE]
+- capture an operation from prompt (add, substract, multiply), followed by numbers split by space
+- print the result of the operation
+- print error if one of the numbers is not a number
+- print error if the action is incorrect
+- example "add 1 33 2 4" prints 38
+- example "add 1 33 2 4 3 2 2" prints 45
+- example "adds 1 33" prints error
+- example "add 1f 33" prints error
+
+[EXERCISE]
+- capture 2 numbers from 2 different prompts (number1 and number2)
+- print number1 lines on the screen where each line has number2 stars
+example
+2 2
+**
+**
+
+4 4
+****
+****
+****
+****
+
+1 4
+*
+*
+*
+*
+
+
+[EXERCISE]
+- capture a number from prompt
+- display in the following format stars
+5
+* * * * *
+* * * *
+* * *
+* *
+*
+
+3
+* * *
+* *
+*
+
+-1
+error  
+
+
+
+[EXERCISE]
+- capture 1 numer from prompt
+- make a sum of all the numbers between 1 and the number
+example
+4
+1+2+3+4 = 10
+5
+1+2+3+4+5 = 15
+1.2
+error
+-4
+error
+
+
+[EXERCISE]
+- capture a string from prompt
+- reverse the letters using a for loop (do not use string split, reverse functions)
+example
+hello => olleh
