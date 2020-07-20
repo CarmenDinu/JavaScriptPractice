@@ -16,12 +16,10 @@ let firstNumber = userInput.slice(
   positionOftheFirstSpace + 1,
   positionOftheSecondSpace
 );
-
 let secondNumber = userInput.slice(
   positionOftheSecondSpace + 1,
   userInput.length
 );
-
 //IF Statements
 
 if (isNaN(firstNumber) || isNaN(secondNumber)) {
