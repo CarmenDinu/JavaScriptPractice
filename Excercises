@@ -5,7 +5,7 @@
 - print error if the action is incorrect
 - example "add 1 33" prints 34
 - example "adds 1 33" prints error
-- example "add 1f 33" prints error
+- example "add 1z 33" prints error
 
 [EXERCISE]
 - capture an operation from prompt (add, substract, multiply), followed by numbers split by space

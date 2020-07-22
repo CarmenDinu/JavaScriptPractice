@@ -1,9 +1,9 @@
-let userInput = prompt("Enter Numbers Here");
+let userInput = parseInt(prompt("Enter Numbers Here"));
 let sum = 0;
 
 if (userInput > 0) {
   if (userInput % 1 === 0) {
-    for (let i = 0; i <= parseInt(userInput); i++) {
+    for (let i = 0; i <= userInput; i++) {
       sum = sum + i;
     }
     alert(sum);
